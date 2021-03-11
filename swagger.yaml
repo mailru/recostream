@@ -3,10 +3,9 @@ info:
   version: "1"
   title: "Pulse OpenAPI specification"
   description: |
-    Pulse recommendation API
-    Based on [JSON Feed format](https://jsonfeed.org/version/1.1)
+    Pulse recommendation API based on [JSON Feed format](https://jsonfeed.org/version/1.1)
 
-    ** The Structure of a Feed: **
+    #### The Structure of a Feed:
       * Feed starts with header at the top, there is alot of information about feed in general, such as: 
         - where the feed comes from.
         - feed icons.
@@ -19,7 +18,7 @@ info:
         - tags array for particular feed item
         - authors array for feed item
 
-    ** Limitations: **
+    #### Limitations:
       * Feed readers are strongly advised to use [Conditional GET](https://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers/), in order to minimize bandwidth and CPU cycles on clients and servers.
   contact:
     email: "v.kulibaba@corp.mail.ru"
@@ -27,7 +26,7 @@ info:
     - news
     - media
   x-logo:
-    url: 'https://api.apis.guru/v2/cache/logo/https_twitter.com_instagram_profile_image.png' 
+    url: 'https://ps.w.org/mihdan-mailru-pulse-feed/assets/icon.svg?rev=2362563' 
 host: "api.pulse.mail.ru"
 basePath: "/"
 schemes:
