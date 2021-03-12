@@ -6,7 +6,7 @@ info:
     Pulse recommendation API based on [JSON Feed format](https://jsonfeed.org/version/1.1)
 
     #### The Structure of a Feed:
-      * Feed starts with header at the top, there is alot of information about feed in general, such as: 
+      * Feed starts with header at the top, there is a lot of information about feed in general, such as: 
         - where the feed comes from.
         - feed icons.
         - url to catch other feed items
