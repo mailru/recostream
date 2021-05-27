@@ -18,6 +18,8 @@ info:
         - tags array for particular feed item
         - authors array for feed item
 
+    If you wish to get feed by category, it's enougth to specify the name of streem which will contain needed documents.  
+
     #### Limitations:
       * Feed readers are strongly advised to use [Conditional GET](https://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers/), in order to minimize bandwidth and CPU cycles on clients and servers.
   contact:
